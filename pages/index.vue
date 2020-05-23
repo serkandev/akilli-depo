@@ -25,7 +25,9 @@
       <div class="row mt-5">
         <div class="col-md-6 text-center">
           <h1>Akıllı Depo</h1>
-          <p>Akıllı Depo çözümleriyle size vakit kazandırıp zamandan tasarruf etmenizi sağlıyoruz.</p>
+          <p
+            class="sub-text"
+          >Akıllı Depo çözümleriyle size vakit kazandırıp zamandan tasarruf etmenizi sağlıyoruz.</p>
           <img class="svg align-self-end" src="../assets/log.svg" />
         </div>
         <div class="col-md-6">
@@ -129,6 +131,7 @@ label {
 .card {
   border-radius: 15px;
   border: none;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2) !important;
 }
 .card > * {
   font-family: "Fira Sans", sans-serif !important;
@@ -148,9 +151,5 @@ label {
 }
 .sub-text {
   color: #264653;
-}
-.container-fluid {
-  padding-right: 150px;
-  padding-left: 150px;
 }
 </style>
